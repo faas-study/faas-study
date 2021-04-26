@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: fudan.se.Handler
+      CodeUri: /Users/akasakaisami/Study/研一下/科研/实验/train-ticket-lambda/getContactsByContactsId
+      Runtime: java8.al2
